@@ -26,3 +26,4 @@ With this sheets function, you can see local stores which does not have a websit
 
 ## Step 3.
 Enjoy :)
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/67732178/213086379-f9451c3d-8f61-4d3d-9595-98912a0df7f7.png">
