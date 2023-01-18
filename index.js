@@ -54,7 +54,7 @@ async function fetchPlaceAPI(url, apiKey, pageToken) {
 
 
 function placesDetailAPI(placeId, apiKey) {
-  const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&language=fr&fields=website,formatted_phone_number&key=${apiKey}`;
+  const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=website,formatted_phone_number&key=${apiKey}`;
   var response = UrlFetchApp.fetch(url);
   payload = JSON.parse(response);
 return payload;
